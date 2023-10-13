@@ -1,0 +1,114 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+nav {
+    background-color: #f7fafc;
+    padding: 1rem;
+}
+nav a {
+    padding: 0.5rem;
+    font-size: 17px;
+    font-weight: 700;
+}
+.computers-list {
+    margin-bottom: 10px;
+}
+.computers-list a,
+.single-item {
+    cursor: pointer;
+    background-color: #c2e7ff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.computers-list a:hover,
+.single-item {
+    background-color: #c2e7ff;
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+        0 4px 8px 3px rgba(60, 64, 67, 0.149);
+}
+.create-form {
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+        0 4px 8px 3px rgba(60, 64, 67, 0.149);
+}
+.create-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.create-form div label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.create-form div input,
+.create-form div button {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.create-form div input:focus {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+        0 4px 8px 3px rgba(60, 64, 67, 0.149);
+}
+.create-form div input:focus-visible {
+    outline: none;
+}
+.create-form div button {
+    cursor: pointer;
+    background-color: #c2e7ff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.create-form div button:hover {
+    background-color: #c2e7ff;
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+        0 4px 8px 3px rgba(60, 64, 67, 0.149);
+}
+
+.create-form div .error {
+    font-weight: bold;
+    font-size: 17px;
+    background: #ff5454;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.edit-item,
+.delete-item {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 7px;
+}
+
+.edit-item:hover,
+.delete-item:hover {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+        0 4px 8px 3px rgba(60, 64, 67, 0.149);
+}
+
+.edit-item {
+    background: #60c260;
+}
+.delete-item {
+    background-color: #ff5454;
+}
